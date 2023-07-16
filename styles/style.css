@@ -66,3 +66,13 @@ nav li a{
     width: 100%;
     margin-top: 20px;
 }
+/*responsive media*/
+
+@media screen and  (max-width: 576) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
