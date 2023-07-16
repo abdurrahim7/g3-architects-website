@@ -24,7 +24,7 @@ nav li{
     list-style: none;
     margin-right: 30px;
     color: #424242;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
 
 }
@@ -38,10 +38,31 @@ nav li a{
     font-weight: 700;
 
 }
-/* banner styles */
-
+/* banner styles*/
 .banner-content{
     max-width: 800px;
     text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color:#727272 ;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0px;
 
+}
+.banner-img{
+    width: 100%;
+    margin-top: 20px;
 }
